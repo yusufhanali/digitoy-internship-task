@@ -179,7 +179,7 @@ int main()
     
     vector<pair<int,array<list<Table>,8> > > tableList;
     
-    for(int i=0; i<2500; i++)
+    for(int i=0; i<1000000; i++)
     {
         emplace(tableList, randomTableGen());
     }
